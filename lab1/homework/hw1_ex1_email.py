@@ -12,6 +12,6 @@ msg = Message("Đơn xin nghỉ phép", to="nphuongquynh311@gmail.com", html=bod
 
 while True:
     now = dt.datetime.now().hour
-    if now == 18:
+    if now == 7:
         mail.send(msg)
         break
