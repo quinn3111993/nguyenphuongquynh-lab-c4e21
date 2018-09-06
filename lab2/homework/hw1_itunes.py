@@ -11,10 +11,7 @@ html_page = raw_data.decode('utf-8')
 
 soup = BeautifulSoup(html_page, 'html.parser')
 div_list = soup.find_all('div', 'section-content')
-div = div_list[1]
-ul = div.find('ul')
-
-li_list = ul.find_all('li')
+li_list = div_list[1].ul.find_all('li')
 
 song_list = []
 
