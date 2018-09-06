@@ -25,6 +25,8 @@ pyplot.pie(ref_count, labels=ref_names, autopct='%.1f%%', shadow=True)
 pyplot.title('Pie chart: Reference Percentage')
 pyplot.axis('equal')
 
+print(ref_list)
+
 pyplot.show()
 
 
